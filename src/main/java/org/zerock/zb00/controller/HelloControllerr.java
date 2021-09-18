@@ -13,4 +13,11 @@ public class HelloControllerr {
         return new String[]{"AAA","BBB","CCC"};
 
     }
+
+    @GetMapping("/hello2")
+    public String[] hello2() {
+
+        return new String[]{"가가가","나나니","다다다"};
+
+    }
 }
